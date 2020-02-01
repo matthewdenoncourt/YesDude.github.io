@@ -6,16 +6,16 @@ body {
 
 
 img {
-	padding-top: 1vw;
+	padding-top: 2vw;
 }
 
 #desktop {
-	display: inline-block;
-	width: 100%;
+	display: none;
 }
 
 #mobile {
-	display: none;
+	display: inline-block;
+	width: 100%;
 }
 
 .center {
@@ -32,45 +32,33 @@ img {
 	font-style: normal;
 	font-weight: 400;
 	color: rgb(220,150,0);
-	font-size: 7vw;
+	font-size: 16vw;
 }
 
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 812px) 
-and (-webkit-device-pixel-ratio : 3)
-and (orientation : portrait) { 
-
+@media only screen (min-device-width : 812px) { 
 	img {
-		padding-top: 2vw;
+		padding-top: 1vw;
 	}
 	
 	#desktop {
-		display: none;
-	}
-
-	#mobile {
+		
 		display: inline-block;
 		width: 100%;
 	}
-	
 
-	.center {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		width: 95%;
+	#mobile {
+		display: none;
 	}
+	
 
 	.mainText {
 		margin: 0;
 		text-align: center;
-		
 		font-family: cooper-black-std, serif;
 		font-style: normal;
 		font-weight: 400;
 		color: rgb(220,150,0);
-		font-size: 16vw;
+		font-size: 7vw;
 	}
 
 
