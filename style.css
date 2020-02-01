@@ -35,7 +35,7 @@ img {
 	font-size: 16vw;
 }
 
-@media only screen (min-device-width : 812px) { 
+@media (min-width : 812px) { 
 	img {
 		padding-top: 1vw;
 	}
